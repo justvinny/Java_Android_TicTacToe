@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tic Tac Toe Game</string>
+    <string name="button_label_play_again">Yes</string>
+    <string name="play_again_message">Do you want to play again?</string>
+    <string name="x_current_score">Player X - 0</string>
+    <string name="o_current_score">Player O - 0</string>
+    <string name="winner_text"/>
+    <string name="winner_text_x" >X Wins!</string>
+    <string name="winner_text_o" >O Wins!</string>
+    <string name="blank_mark"/>
+    <string name="x_mark">X</string>
+    <string name="o_mark">O</string>
+</resources>
