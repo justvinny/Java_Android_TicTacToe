@@ -51,12 +51,13 @@
         android:layout_height="165dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="24dp"
+        android:onClick="tilePressed"
         android:tag="1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_x_score"
         android:text="@string/blank_mark"
-        android:onClick="tilePressed" />
+        android:textSize="@dimen/button_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_x_score" />
 
     <Button
         android:id="@+id/button2"
@@ -64,28 +65,30 @@
         android:layout_height="165dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:onClick="tilePressed"
         android:tag="2"
+        android:text="@string/blank_mark"
+        android:textSize="@dimen/button_text_size"
         app:layout_constraintEnd_toStartOf="@+id/button3"
         app:layout_constraintStart_toEndOf="@+id/button1"
-        app:layout_constraintTop_toBottomOf="@+id/textView_winner"
-        android:text="@string/blank_mark"
-        android:onClick="tilePressed" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_winner" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="127dp"
         android:layout_height="165dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:onClick="tilePressed"
         android:tag="3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_o_score"
         android:text="@string/blank_mark"
-        android:onClick="tilePressed" />
+        android:textSize="@dimen/button_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_o_score" />
 
     <Button
         android:id="@+id/button4"
@@ -94,11 +97,12 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
+        android:onClick="tilePressed"
         android:tag="4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button1"
         android:text="@string/blank_mark"
-        android:onClick="tilePressed" />
+        android:textSize="@dimen/button_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1" />
 
     <Button
         android:id="@+id/button5"
@@ -109,12 +113,13 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:onClick="tilePressed"
         android:tag="5"
+        android:text="@string/blank_mark"
+        android:textSize="@dimen/button_text_size"
         app:layout_constraintEnd_toStartOf="@+id/button6"
         app:layout_constraintStart_toEndOf="@+id/button4"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        android:text="@string/blank_mark"
-        android:onClick="tilePressed" />
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <Button
         android:id="@+id/button6"
@@ -126,6 +131,7 @@
         android:onClick="tilePressed"
         android:tag="6"
         android:text="@string/blank_mark"
+        android:textSize="@dimen/button_text_size"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
 
@@ -137,12 +143,12 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
+        android:onClick="tilePressed"
         android:tag="7"
-        app:layout_constraintBottom_toTopOf="@+id/textView_ask_play_again"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4"
         android:text="@string/blank_mark"
-        android:onClick="tilePressed" />
+        android:textSize="@dimen/button_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
 
     <Button
         android:id="@+id/button8"
@@ -154,13 +160,13 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
+        android:onClick="tilePressed"
         android:tag="8"
-        app:layout_constraintBottom_toTopOf="@+id/textView_ask_play_again"
+        android:text="@string/blank_mark"
+        android:textSize="@dimen/button_text_size"
         app:layout_constraintEnd_toStartOf="@+id/button9"
         app:layout_constraintStart_toEndOf="@+id/button7"
-        app:layout_constraintTop_toBottomOf="@+id/button5"
-        android:text="@string/blank_mark"
-        android:onClick="tilePressed" />
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
 
     <Button
         android:id="@+id/button9"
@@ -170,12 +176,12 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
+        android:onClick="tilePressed"
         android:tag="9"
-        app:layout_constraintBottom_toTopOf="@+id/button_play_again"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6"
         android:text="@string/blank_mark"
-        android:onClick="tilePressed" />
+        android:textSize="@dimen/button_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
 
     <TextView
         android:id="@+id/textView_ask_play_again"
@@ -199,8 +205,8 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
+        android:onClick="playAgain"
         android:text="@string/button_label_play_again"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:onClick="playAgain" />
+        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
